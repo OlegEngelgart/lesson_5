@@ -1,0 +1,246 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* =================================================== */
+
+/* header */
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  margin-bottom: 50px;
+}
+.header-title {
+  display: block;
+  font-size: 46px;
+  color: #e2e3f8;
+  background-color: #0000ff;
+  padding: 30px 0 30px 20px;
+}
+.header-subtitle {
+  display: block;
+  font-size: 28px;
+  background-color: #cecccc;
+  padding: 15px 0 15px 20px;
+  margin: 0 0 10px 0;
+}
+.links {
+  text-align: left;
+  width: 80%;
+  /* background-color: #eeeeee; */
+  /* margin: 0 0 0 0; */
+}
+.header-link {
+  display: inline-block;
+  font-size: 20px;
+  color: #ff0000;
+  /* min-width: 700px; */
+  margin: 0 0 10px 60px;
+}
+
+.main-block-1 {
+  /* text-align: center; */
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  /* margin-bottom: 100px; */
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.overview-image {
+  /* display: block; */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.overview-date {
+  margin-right: 20px;
+  font-size: 18px;
+  padding: 7px;
+  color: #ffffff;
+  background-color: #0000ff;
+}
+.overview-name {
+  font-size: 18px;
+  color: #0000ff;
+}
+.overview-paragraph {
+  margin: -70px 0 20px 145px;
+  background-color: #bdbdbd;
+}
+.overview-text {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.overview-image-2 {
+  display: block;
+  margin: 0 auto 20px;
+  width: 1000px;
+}
+
+/* specifications */
+.subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.specifications-paragraph {
+  font-size: 22px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.specifications-card {
+  display: inline-block;
+  max-width: 30%;
+  height: 400px;
+  overflow: auto;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: justify;
+  padding: 20px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  background-color: #80ccf8;
+  vertical-align: top;
+}
+.specifications-images {
+  text-align: center;
+}
+.specifications-image {
+  max-width: 300px;
+  height: auto;
+  margin: 0 3%;
+  padding: 20px;
+}
+
+/* Дополнительное задание */
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-title {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-block-1,
+.footer-block-2,
+.footer-block-3,
+.footer-block-4,
+.footer-block-5,
+.footer-block-6 {
+  margin: 0 0 50px 0;
+}
+.footer-block-2,
+.footer-block-4 {
+  font-size: 0;
+}
+.footer-subtitle {
+  font-size: 24px;
+  color: blue;
+  margin-bottom: 20px;
+}
+.footer-span {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+.footer-text {
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 15px;
+  margin: 0 15px 0 0;
+  color: beige;
+  background-color: brown;
+  font-size: 22px;
+  overflow: auto;
+  vertical-align: top;
+}
+.footer-link {
+  display: inline-block;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+}
+.footer-info {
+  display: inline-block;
+  max-width: 100px;
+  padding: 10px;
+  margin: 0 30px 0 0;
+  font-size: 16px;
+  background-color: #2aa534;
+}
+.footer-card {
+  font-size: 34px;
+  color: bisque;
+}
+.card-1 {
+  background-color: #4c62dd;
+  padding: 30px;
+}
+.card-2 {
+  width: 90%;
+  background-color: #dd4cca;
+  padding: 30px;
+  margin-top: -60px;
+}
+.footer-scrolling {
+  display: block;
+  max-height: 200px;
+  overflow: auto;
+  font-size: 22px;
+  padding: 15px;
+  background-color: #f5df1f;
+}
